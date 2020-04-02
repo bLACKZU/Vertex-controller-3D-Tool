@@ -1,0 +1,9 @@
+﻿  main.cpp
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\xutility(3583): error C2446: '==': no conversion from 'int' to 'std::basic_string<char,std::char_traits<char>,std::allocator<char>> *'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\xutility(3583): note: Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+  d:\testgl\test\test\main.cpp(85): note: see reference to function template instantiation 'int std::count<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>,char>(const _InIt,const _InIt,const char &)' being compiled
+          with
+          [
+              _Ty=std::string *,
+              _InIt=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<std::basic_string<char,std::char_traits<char>,std::allocator<char>> *>>>
+          ]
